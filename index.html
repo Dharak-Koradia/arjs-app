@@ -14,12 +14,13 @@
 			<a-asset-item id="model" src="model.gltf"></a-asset-item>
 		</a-assets>
 
-		<a-marker preset="hiro">
+		<a-marker type="pattern" url="pattern-tower.patt">
 			<a-entity
 				scale="1 1 1"
 				position="0 1 -1"
 				gltf-model="#model"
 				animation-mixer="clip: Idle"
+				rotation="-90 0 0"
 
 			></a-entity>
 		</a-marker>
